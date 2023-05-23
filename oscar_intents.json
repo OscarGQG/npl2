@@ -1,0 +1,62 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "How are you?"],
+     "responses": ["Hello", "Hi", "Hi there", "Hello how are you?"]
+    },
+
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    
+    {"tag": "menu",
+     "patterns": ["menu", "what's on the menu?", "what do you have?"],
+     "responses": ["Classic, Bacon, Cheese, Mushroom, Veggie Burgers", "Four different types of burgers", "We have the following burgers on our menu: Classic, Bacon, Cheese, Mushroom, Veggie", "Rigth now, just Classic and Cheese Burgers"]
+    },
+
+    {"tag": "order",
+     "patterns": ["I want to order a burger", "Can I get a burger?", "Burger please"],
+     "responses": ["Sure, what kind of burger would you like to order?", "What type of burger would you like to have?", "What would you like on your burger?", "Which one do you want?"]
+    },
+
+    {"tag": "type",
+     "patterns": ["I want a cheeseburger", "Do you have any veggie burgers?", "Can I have a double burger with bacon?"],
+     "responses": ["Sure, we have veggie burgers, and double burgers with bacon", "Which one would you like?", "Yes, we have veggie burgers. Would you like to order one?", "Of course, we have double burgers with bacon. Would you like to have one?"]
+    },
+   
+    {"tag": "toppings",
+     "patterns": ["I want my burger with ketchup", "Can you add some lettuce and tomatoes to my burger?", "I don't want any onions on my burger"],
+     "responses": ["Sure, we can add ketchup to your burger. Anything else?", "Do you want all the toppings?", "Of course, we can add lettuce and tomatoes to your burger", "No problem, we won't add onions to your burger."]
+    },
+
+    {"tag": "sides",
+     "patterns": ["Can I also get some fries with my burger?", "Do you have any sides available?", "I would also like to have some onion rings"],
+     "responses": ["Sure, we have fries, onion rings, and salad as sides.", "Yes, we have fries, onion rings, and salad as sides.", "Of course, we have onion rings. Would you like to have them?", ""]
+    },
+
+    {"tag": "drink",
+     "patterns": ["Can I have a coke with my burger?", "Do you have any drinks available?", "I would also like to have a lemonade"],
+     "responses": ["Sure, we have coke, pepsi, and lemonade as drinks", "What would you like to have with your burger?", "Yes, we have coke and pepsi as drinks", "Rigth now, just have lemonade"]
+    },
+    
+    {"tag": "special",
+     "patterns": ["special", "special offer", "do you have any promo"],
+     "responses": ["We are currently offering a buy-one-get-one-free", "Just on Tuesday", "No, we don't have promo","If you buy a big one you have a small one free"]
+    },
+
+    {"tag": "payment",
+     "patterns": ["how can I pay?", "what are the payment options?", "Do you accept cash?"],
+     "responses": ["We accept cash", "We just accept credit/debit card", "We have online payment", "You can pay with our app"]
+    },
+
+    {"tag": "delivery_fee",
+     "patterns": ["how much is the delivery fee?", " do you charge for delivery?", "Is free the delivery"],
+     "responses": ["Yes, we charge a small delivery fee", "No, it is not free", "Yes, it is free", "We charge 2.00 CAD"]
+    },
+
+    {"tag": "goodbye",
+     "patterns": ["bye", "thank you", "see you"],
+     "responses": ["Have a great day!", "Thank you for ordering here", "See you soon around here","Bye"]
+    }
+]
+}
